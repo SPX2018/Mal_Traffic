@@ -21,10 +21,10 @@ Please download the raw datasets from their official sources and place them into
 
 | Dataset | Format | Official Source / Download Link |
 | :--- | :--- | :--- |
-| **USTC-TFC2016** | PCAP / Flow | [GitHub Mirror (USTC-TFC2016)](https://github.com/yungshenglu/USTC-TFC2016) |
-| **CIC-IDS-2017** | PCAP / CSV | [UNB CIC-IDS2017 Official Portal](https://www.unb.ca/cic/datasets/ids-2017.html) |
-| **CSE-CIC-IDS2018** | PCAP / CSV | [UNB CSE-CIC-IDS2018 Official Portal](https://www.unb.ca/cic/datasets/ids-2018.html) / [AWS Open Data](https://registry.opendata.aws/cse-cic-ids2018/) |
-| **CIC-DDoS-2019** | PCAP / CSV | [UNB CIC-DDoS2019 Official Portal](https://www.unb.ca/cic/datasets/ddos-2019.html) |
+| **USTC-TFC2016** | PCAP | [GitHub Mirror (USTC-TFC2016)](https://github.com/yungshenglu/USTC-TFC2016) |
+| **CIC-IDS-2017** | PCAP | [UNB CIC-IDS2017 Official Portal](https://www.unb.ca/cic/datasets/ids-2017.html) |
+| **CSE-CIC-IDS2018** | PCAP | [UNB CSE-CIC-IDS2018 Official Portal](https://www.unb.ca/cic/datasets/ids-2018.html) / [AWS Open Data](https://registry.opendata.aws/cse-cic-ids2018/) |
+| **CIC-DDoS-2019** | PCAP | [UNB CIC-DDoS2019 Official Portal](https://www.unb.ca/cic/datasets/ddos-2019.html) |
 
 ## Workflow Overview
 
