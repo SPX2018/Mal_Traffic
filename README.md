@@ -9,6 +9,23 @@ Prior to running the code, please install the required packages according to req
 ## License
 This project is licensed under the [MIT License](./License).
 
+## Dataset Preparation
+
+Our experiments evaluate on four benchmark network traffic datasets: **USTC-TFC2016**, **CIC-IDS-2017**, **CSE-CIC-IDS2018**, and **CIC-DDoS-2019**. 
+
+Please download the raw datasets from their official sources and place them into the `data/` directory according to the instructions below.
+
+---
+
+###  Download Links
+
+| Dataset | Format | Official Source / Download Link |
+| :--- | :--- | :--- |
+| **USTC-TFC2016** | PCAP / Flow | [GitHub Mirror (USTC-TFC2016)](https://github.com/yungshenglu/USTC-TFC2016) |
+| **CIC-IDS-2017** | PCAP / CSV | [UNB CIC-IDS2017 Official Portal](https://www.unb.ca/cic/datasets/ids-2017.html) |
+| **CSE-CIC-IDS2018** | PCAP / CSV | [UNB CSE-CIC-IDS2018 Official Portal](https://www.unb.ca/cic/datasets/ids-2018.html) / [AWS Open Data](https://registry.opendata.aws/cse-cic-ids2018/) |
+| **CIC-DDoS-2019** | PCAP / CSV | [UNB CIC-DDoS2019 Official Portal](https://www.unb.ca/cic/datasets/ddos-2019.html) |
+
 ## Workflow Overview
 
 The project has two main multi-agent workflows:
