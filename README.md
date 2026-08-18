@@ -1,6 +1,10 @@
-# Mal_Traffic Multi-Agent Workflow
+# TALE
 
 This document records the entry scripts for the LangGraph multi-agent traffic analysis workflow in this repository.
+
+Below is the official implementation and experimental source code for the paper "[***]".
+
+Prior to running the code, please install the required packages according to requirements.txt. Additionally, before invoking the large language model (LLM), ensure that a valid base_url, model_name, and api_key are specified in config.json.
 
 ## Workflow Overview
 
