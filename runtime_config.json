@@ -1,0 +1,42 @@
+{
+  "model": {
+    "base_url": "---",
+    "model_name": "---",
+    "api_key": "---",
+    "max_tokens": 8000
+  },
+  "code": {
+    "tmp_file_path": "./tmp/traffic_feature_extractor.py",
+    "memory_file_path": "./memory/traffic_feature_extractor.py",
+    "result_file": "./result"
+  },
+  "prompt": {
+    "sys_prompt_file": "./prompt/sys_prompt.yml"
+  },
+  "train": {
+    "data_dir": "./robustness/timing_based_robustness/output/USTC-TFC2016_mask_tantra_sample_benign20",
+    "file_pattern": "*.pcap",
+    "recursive": true,
+    "success_file": "./robustness/timing_based_robustness/memory/USTC-TFC2016_mask_tantra_sample.txt",
+    "fail_file": "./robustness/timing_based_robustness/memory/fail_USTC-TFC2016_mask_tantra_sample.txt",
+    "chat_memory_file": "./robustness/timing_based_robustness/memory/chat_memory_USTC-TFC2016_mask_tantra_sample.json",
+    "temp_memory_file": "./robustness/timing_based_robustness/memory/temp_USTC-TFC2016_mask_tantra_sample.json",
+    "summary_trigger_messages": 20
+  },
+  "detection": {
+    "chat_memory_file": "./memory/chat_memory_cic-ids-2017.json",
+    "knowledge_file": "./memory/2017_knowledge.json",
+    "thread_id": "2",
+    "max_file_base64_chars": 5000
+  },
+  "paths": {
+    "worker_script": "watch_one_dir.py",
+    "input_root": "./dataset/cic-ids-2017/one_pacp",
+    "output_root": "./report/cic-ids-2017/one_pacp",
+    "temp_report_root": "./report/temp/cic-ids-2017/one_pacp"
+  },
+  "runner": {
+    "max_workers": 1,
+    "show_worker_output": true
+  }
+}
