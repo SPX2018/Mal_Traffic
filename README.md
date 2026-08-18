@@ -1,6 +1,6 @@
 # TALE
 
-This document records the entry scripts for the LangGraph multi-agent traffic analysis workflow in this repository.
+This document records the entry scripts for the multi-agent traffic analysis workflow in this repository.
 
 Below is the official implementation and experimental source code for the paper "[***]".
 
