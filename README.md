@@ -20,8 +20,6 @@ Detection workflow:
     -> EngineerAgent + AuditorAgent + AnalystAgent + ObserverAgent
 ```
 
-The TrafficFormer, GRU-AE, decision tree, and other baseline folders are separate baseline experiments. They are not the entry points for this LangGraph multi-agent model.
-
 ## Training Entry
 
 Use:
