@@ -6,8 +6,7 @@ Below is the official implementation and experimental source code for the paper 
 
 Prior to running the code, please install the required packages according to requirements.txt. Additionally, before invoking the large language model (LLM), ensure that a valid base_url, model_name, and api_key are specified in [runtime_config.json](./runtime_config.json).
 
-## License
-This project is licensed under the [MIT License](./License).
+
 
 ## Dataset Preparation
 
@@ -242,3 +241,6 @@ Run the current full test flow:
 Evaluate reports:
   python evaluate.py
 ```
+
+## License
+This project is licensed under the [MIT License](./License).
