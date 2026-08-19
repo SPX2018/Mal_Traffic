@@ -4,7 +4,7 @@ This document records the entry scripts for the multi-agent traffic analysis wor
 
 Below is the official implementation and experimental source code for the paper "[***]".
 
-Prior to running the code, please install the required packages according to requirements.txt. Additionally, before invoking the large language model (LLM), ensure that a valid base_url, model_name, and api_key are specified in [runtime_config.json](./runtime_config.json).
+Prior to running the code, please install the required packages according to [requirements.txt](./requirements.txt). Additionally, before invoking the large language model (LLM), ensure that a valid base_url, model_name, and api_key are specified in [runtime_config.json](./runtime_config.json).
 
 
 
